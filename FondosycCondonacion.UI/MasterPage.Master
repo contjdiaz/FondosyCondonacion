@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="FondosycCondonacion.UI.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="js/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="js/jquery-ui-1.11.4/jquery-ui.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" />
+    <link href="Styles/cssProfesoresInvitados.css" rel="stylesheet" />
+    <link href="Styles/screen.css" rel="stylesheet" />
+    <link href="Styles/styles.css" rel="stylesheet" />
+    <link href="Styles/formularios.css" rel="stylesheet" />
+    <link href="Styles/cssProfesoresInvitados.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePartialRendering="true">
+            <Scripts>
+                <asp:ScriptReference Path="js/jquery-2.2.3.min.js" />
+                <asp:ScriptReference Path="js/bootstrap-3.3.6-dist/js/bootstrap.min.js" />
+                <asp:ScriptReference Path="js/digitalBush-jquery.maskedinput-9672630/jquery.maskedinput.js" />
+                <asp:ScriptReference Path="js/jquery-ui-1.11.4/jquery-ui.js" />
+            </Scripts>
+        </asp:ScriptManager>
+        <div style="width: 100%;">
+            <div class="header" style="background: #032968; margin-bottom: 4px;" />
+            <div class="fondoheader">
+                <div class="container">
+                    <div class="span-7">
+                        <asp:Image runat="server" ImageUrl="~/Images/icetex.png"></asp:Image>
+                    </div>
+                    <div class="prepend-1 span-4">
+                        <small style="color: #ccc;"></small>
+                        <br />
+                        <div id="btn_linea_credito" class="dv_cambiar" style="padding-left: 10px; color: #fff;">
+                            <strong><span id="s_linea_credito"></span></strong>
+                        </div>
+                    </div>
+                    <div class="span-9">
+                        <small style="color: #ccc;">Bienvenido,</small><br />
+                        <div class="dv_cambiar" style="padding-left: 10px; color: #fff;">
+                            <strong>
+                                <asp:Label ID="lblUsuario" runat="server" Text=""></asp:Label>
+                            </strong>
+                        </div>
+                    </div>
+                    <div class="span-3 last">
+                        <small style="color: #ccc;">&nbsp;</small><br />
+                        <div class="dv_cambiar cerrar_sesion" style="padding-left: 10px; color: #fff;">
+                            <asp:Button ID="Button1" runat="server" Text="Button" OnClientClick="return false;" CssClass="nada" />
+                            <asp:Button ID="btnCerrar" runat="server" Text="Cerrar sesi&oacute;n" CssClass="btn" OnClick="btnCerrar_Click" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="height: 100%; width: 100%;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

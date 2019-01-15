@@ -1,0 +1,320 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+
+#Body {background:#DCDEE2 url(images/body_bg.png) repeat-x top left; height:100%; margin:0px; padding:0px; font-size:100%;}
+/* ControlPanel style */
+.ControlPanel{padding-bottom:10px;}
+.cpanel_left {padding-left:21px;}
+.cpanel_right {padding-right:33px;}
+.btn_form { background-color:Transparent;  margin:0px; padding:0px; height:0px; width:0px; border:solid 0px #052974;}
+/*-- Default Style --*/
+body,th,td,div,p,table {font:normal normal normal 1em Helvetica, Arial, sans-serif; color:#4C4949; } 
+a:link, a:visited, a:hover, input, .CommandButton{font:normal normal normal 0.95em Helvetica, Arial, sans-serif;  color:#052974; }
+.FondoCabecera{ background-color:Transparent;}
+h1{font:normal normal bold 1.4em Helvetica, Arial, sans-serif;  color:#21328A; text-transform:uppercase; margin:10px 0;}
+.H1tituloinicio {color:#052974;}
+h2, h2 input{font:normal normal bold 1em Helvetica, Arial, sans-serif;  color:#21328A; text-transform:uppercase;}
+h3{font:normal normal bold 1em Helvetica, Arial, sans-serif;  color:#5054A5; }
+h4{font:italic normal bold 1em Helvetica, Arial, sans-serif;  color:#4F4F4F; }
+h5{font-size:0.8em;}
+h6{font-size:0.8em;}
+a,a:link{color:#052974; text-decoration: none;}
+a:hover{color:#0069D1; text-decoration: none;}
+a:visited{color:#551A8B; text-decoration: none;}
+a:active{color:#052974; text-decoration: none;}
+a:link img{ border:solid 0px #ffffff;}
+a:hover img{filter:alpha(opacity=90); opacity:.9;}
+.labelCronograma { font:normal normal bold 14px Helvetica, Arial, sans-serif;  color:#fff; text-align:center; margin-top:10px;}
+
+
+
+
+/*-- Cabeceras del modulo AccordionTabs --*/
+h2.dnnFormSectionHead {color:#21328A; text-transform:none;}
+h2.dnnFormSectionHead a{color:#21328A; text-transform:none;}
+h2.dnnFormSectionHead a:hover{color:#21328A; text-transform:none;}
+h2.dnnFormSectionHead a.dnnSectionExpanded{color:#21328A; text-transform:none;}
+h2.dnnFormSectionHead a.dnnSectionExpanded:hover{color:#21328A; text-transform:none;}
+	
+	
+	
+
+.Normal, .NormalDisabled, .NormalDeleted, .NormalBold, .NormalRed, .NormalTextBox {font:normal normal normal 0.95em Helvetica, Arial, sans-serif;  font-weight:normal; color:#4C4949;}
+.Head{font:normal normal bold 1.4em Helvetica, Arial, sans-serif;  color:#21328A; text-transform:uppercase;}
+.SubHead {font:normal normal bold 1em Helvetica, Arial, sans-serif;  color:#21328A; text-transform:uppercase;}
+.SubSubHead{font:normal normal bold 0.9em Helvetica, Arial, sans-serif;  color:#5054A5;}
+.NormalRed {font:normal normal normal 0.9em Helvetica, Arial, sans-serif;  color:#F00;}
+/* Datagrids */
+.DataGrid_Container {margin-top:15px;}
+.DataGrid_Header{font-weight:bold;}
+.DataGrid_Header td, .NormalBold td{font-weight:bold;}
+/*-- design style --*/
+#s_wrap_main{display:table;width:960px; margin:0 auto;}
+#s_wrap_sub{display:table-row;}
+.template_style{display:table-cell;}
+.top_space{height:34px;}
+.lang_pad{padding:7px 0 0 25px;float:left;}
+.Linea{border-top:solid 0px #C9C9C9; padding-bottom:5px;}
+.logo_top_left{padding:0; margin:0;background:#052974;}
+.logo_top_right{padding:0; margin:0;background:#052974;}
+.logo_top_bg{padding:6px 0px 22px 0px; margin:0px 0px 0px 0px;}
+.logo_left{padding:0;background:#052974;}
+.logo_right{padding:0; background:#052974; border-top:solid 1px #FFFFFF;}
+.logo_pad{ float:left; margin: 0px 0px 0px 10px; padding:10px 0px 5px 0px; }
+.s_logo{float:left;}
+.s_banner{background:#aaa; width:50%; float:right;}
+.menu_bg{padding:0px 0px 0px 0px; margin: 0px 0px 0px 0px;}
+.menu_left{padding:0px; margin:0px;}
+.menu_right{margin:0px;}
+.search_style{float:right;}
+.search_bg{padding:8px 2px 0px 0px;}
+.bread_bg{padding:0px; margin: 0px 19px 0px 7px; height:34px;}
+.bread_left{padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.bread_right{padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+#login_style{ float:right;  padding-right:10px;  }
+#bread_style{ float:left;  padding-left:10px; color:#CECECE; height:23px; }
+.center_bg{padding:0px; margin:0px;clear:both;}
+.left_bg{padding:0px; margin:0px;}
+.right_bg{padding:0px; margin:0px;}
+.content_pad{padding:20px 22px 0px 22px; background-color:#FFFFFF;}
+.lm_content_pad{padding:0px 22px 0 0px; margin: 0 19px 0 7px; background:#FFF url(images/center_bg.png) repeat-x bottom left;}
+.content_width{padding-top:0px; min-height:350px;}
+.lm_content_width{padding-top:0px; min-height:350px;}
+.content_banner {background-color:#FFFFFF; padding:0px; margin:0px;}
+.bot_left{padding:0; margin:0; background-color:#ffffff;}
+.bot_right{padding:0; margin:0;  background-color:#ffffff;}
+.bot_bg{padding:0; margin:0;  background-color:#ffffff; height:41px;}
+.bot_pad{margin-bottom:20px; padding:1px 30px 1px 20px; background-color:#052974; /* filter:alpha(opacity=90); opacity:0.9; */ border-bottom-right-radius:0.5em; border-bottom-left-radius:0.5em;  }
+#terms_style{float:left;}
+#ActualizacionFecha{float:left;}
+#copy_style{ text-align:center;}
+.clear_float{clear:both; }
+div.row {clear: both; padding-top: 0px;}
+/* ------- FileManager -------*/
+div.FileManager{height:auto;border:none;}
+table.FileManager{width:99%}
+a.CommandButton:link, a.CommandButton:visited{color:#0B4885; font-weight:bold; text-decoration:none;}
+a.CommandButton:hover{color:#0B4885; text-decoration:underline;}
+/*-- ControlPanel changes --*/
+.ControlPanel a.CommandButton:link, .ControlPanel a.CommandButton:visited{color:#698DB6;}
+.ControlPanel a.CommandButton:hover{color:#0B4885; text-decoration:underline;}
+.ControlPanel a.CommandButton:link, .ControlPanel a.CommandButton:hover, .ControlPanel a.CommandButton:visited, .ControlPanel .SubHead{font-size:0.9em;}
+.ControlPanel a[disabled="disabled"]{color:#888 !important;text-decoration:none !important;}
+/*-- pane style --*/
+.BannerPane {display:inline-block;float:right;padding-right:17px;width:auto;}
+.ContentPane, .TopPane, .BottomPane{ margin-left:0px; margin-right:0px; margin-bottom:0px; margin-top:0px; padding-left:0px; padding-right:0px; padding-top:0px; padding-bottom:0px;}
+.LeftPane{ padding:0px 20px 0px 0px; width:20%; margin:0px;}
+.RightPane{ padding:0px 0px 0px 20px; margin:0px;}
+/*-- Breadcrumb Style --*/
+.Breadcrumb,a.Breadcrumb:link,a.Breadcrumb:active,a.Breadcrumb:visited{color:#FFFFFF; font:normal normal normal 0.7em Helvetica, Arial, sans-serif;}
+a.Breadcrumb:hover{color:#CECECE;  font:normal normal normal 0.7em Helvetica, Arial, sans-serif;}
+.breadcrumb_text{ font:normal normal normal 0.7em Helvetica, Arial, sans-serif; color:#ffffff;}
+/* menu de la cabecera*/
+.menucabecera{font-size:0.8em; color:#ffffff; font-family:'Open Sans',sans-serif; vertical-align:top;}
+a.menucabecera:link,a.menucabecera:active,a.menucabecera:visited{font-size:0.8em; color:#FFFFFF; font-family:'Open Sans',sans-serif; text-decoration:none;}
+a.menucabecera:hover{font-size:0.8em; color:#B8B8B8; font-family:'Open Sans',sans-serif; text-decoration:none;}
+/* menu de la institucion */
+.menuinstitucion_fila{float:right; padding-top:5px;  }
+.menuinstitucion{ color:#FFFFFF; font-family:'Open Sans',sans-serif; text-transform: uppercase; }
+a.menuinstitucion:link,a.menuinstitucion:active,a.menuinstitucion:visited{font-weight:bold; font-size:0.8em; color:#FFFFFF; font-family:'Open Sans',sans-serif; text-transform: uppercase; text-decoration:underline;}
+a.menuinstitucion:hover{font-weight:bold; font-size:0.8em; color:#B8B8B8; font-family:'Open Sans',sans-serif; text-transform: uppercase; text-decoration:underline;}
+.EscudoColombia{float:right; border:solid 0px #ffffff;  padding-right:10px; padding-top:6px; background: transparent url(images/EscudoColombia.png) no-repeat left center; height:65px; width:55px;}
+.ProsperidadParaTodos{float:right; border:solid 0px #ffffff;  padding-right:0px; padding-top:6px;background: transparent url(images/GobiernoColombiaProsperidadParaTodos.png) no-repeat center center; height:65px; width:263px;}
+/*-- Link Style --*/
+.linkscontainer{padding-top:10px; padding-bottom:10px; text-align:center;background-color:#052974; }
+.links,a.links:link,a.links:active,a.links:visited{ font-weight:bold; color:#3E81B5; text-transform:uppercase;}
+a.links:hover{color:#0B4885;}
+/*-- User Style --*/
+.user,a.user:link,a.user:active,a.user:visited { color:#FFFFFF;}
+a.user:hover{color:#0B4885; }
+/*-- Footer Style --*/
+.footer{ background-color:#052974; color:#F5F5F5; font:normal normal normal 0.8em Helvetica, Arial, sans-serif;}
+.footer div {color:#F5F5F5;}
+a.footer:link,a.footer:active,a.footer:visited { color:#F5F5F5; }
+a.footer:hover{color:#B8B8B8;}
+.AtencionUsuario{  color:#21328A; text-align:center; border-bottom:solid 1px #999999; padding-top:20px;}
+
+
+
+#gel a, #gel a:hover { background: #fff url(images/HomePieDePagina/GelSprite.png) no-repeat; }
+.footer_mineducacion {background-position: 0px 0px !important; display:inline-block; height: 78px;width: 129px; cursor:pointer;}
+.footer_gobierno{background-position: -128px 0px !important; display:inline-block;height: 78px;width: 80px;cursor:pointer;}
+.footer_accionsocial{background-position: -205px 0px !important; display:inline-block;height: 78px;width: 93px;cursor:pointer;}
+.footer_icfes {background-position: -295px 0px !important; display:inline-block;height: 78px;width: 100px;cursor:pointer;}
+.footer_insor {background-position: -392px 0px !important; display:inline-block;height: 78px;width: 70px;cursor:pointer;}
+.footer_inci {background-position: -460px 0px !important; display:inline-block;height: 78px;width: 64px;cursor:pointer;}
+.footer_anticorrupcion {background-position: -535px 0px !important; display:inline-block;height: 78px;width:112px;cursor:pointer;}
+.footer_presidencia {background-position: -648px 0px !important;  display:inline-block;height: 78px;width:155px;cursor:pointer;}
+
+#certificado a, #certificado a:hover { background: #F4F4F4 url(images/InicioCert.jpg) no-repeat; }
+.cer_AAA {background-position: 0px 0px !important; display:inline-block; width: 206px; height: 98px; cursor:pointer;}
+.cer_INCONTEC {background-position: -200px 0px !important; display:inline-block;  width: 206px; height: 98px; cursor:pointer;}
+.cer_tv {background-position: -425px 0px !important; display:inline-block; width: 206px; height: 98px; cursor:pointer;}
+.cer_jr {background-position: -630px 0px !important; display:inline-block; width: 206px; height: 98px; cursor:pointer;}
+
+/*-- Empty panes Style --*/
+.DNNEmptyPane{width:0px; height:0px; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+/*-- Search SkinObject Styles --*/
+div.SearchContainer{ white-space: nowrap; margin:0px 0px 0px 5px;  background-color:transparent; width:180px; }
+div.SearchBorder{width: 175px;  border: solid 0px #698DB6; float:left; background-color:Transparent; white-space: nowrap; margin-top: 0px;  background:url(images/searchpane.gif) no-repeat top left;}
+div.SearchContainer a{padding: 0px 0px 0px 0px; margin: 2px 0px 0px 0px; left: -18px; border: solid 0px #698DB6; width:15px;   }
+div.SearchContainer a img{position: relative; vertical-align:top; margin:0px 0px 0px 0px; width:15px; }
+div.SearchIcon{padding-left:10px; float:left; width:31px; height:20px; cursor:pointer; z-index:11; background:no-repeat 8px 2px; text-align:right;}
+div.SearchIcon img{margin-top: 3px;}
+input.SearchTextBox{font-weight:bold; font-family:Verdana, Geneva, Arial, Helvetica, sans-serif; font-size:0.6em; vertical-align:top; float: left; z-index: 10;  border: solid 1px #D2D3D5; width:110px; height:11px; margin:3px 0px 0px 0px; color: #698DB6; background-color:transparent;}
+#SearchChoices{clear:both; display:none; border:solid 1px #C3D4DF; z-index:2000; cursor:pointer; margin:0px; padding:0; text-align:left; background-color:#F3F7FA; position:absolute; top:22px; left:0px;}
+#SearchChoices li{cursor:pointer; margin:0px; padding:2px 2px 0 2px; padding-left:25px; height:18px; text-align:left; background-color:#FFF; background-repeat:no-repeat; background-position:2px center; list-style:none; list-style-image:none; border:none; display:block;}
+#SearchChoices li.searchHilite{background-color: #698DB6;	color:#ffffff; border: none;}
+#SearchChoices li.searchDefault{background-color: #fff; border: none;}
+.Actualizacion { float:left;}
+.Visita{ float:right;}
+/* ESTILOS HOME DE PAGOS */ 
+.TituloPagos {font:normal normal normal 1.4em Impact, Sans-Serif; color:#B75004; text-transform:uppercase;}
+/* estilos de tabla */
+.T_ICTX {font:normal normal normal 0.935em Helvetica, Arial, sans-serif; color:#171819; text-align:left; border-collapse:collapse;
+    margin-right: 0px;
+} 
+.T_ICTX th {font:normal normal normal 0.935em Helvetica, Arial, sans-serif; color:#FFFFFF; text-align:center;font-weight:bold;padding:8px; background: #4C4949; border-top:4px solid #FFFFFF;border-bottom:1px solid transparent;border-right:solid 1px #FFFFFF;border-left:solid 1px #FFFFFF;}
+.T_ICTX td{padding:2px;background:#EDEDED;border-bottom:solid 1px #ffffff;border-top:solid 1px transparent;border-right:solid 1px #FFFFFF;border-left:solid 1px #FFFFFF;}
+.T_ICTX tr:hover td{background:#B4C5D8;color:#293D87;}
+.T_ICTX_SMALL{font:normal normal normal 0.9em Helvetica, Arial, sans-serif; color:#171819;text-align:left;border-collapse:collapse;}    
+.T_ICTX_SMALL th {font:normal normal normal 0.9em Helvetica, Arial, sans-serif;color:#FFFFFF;text-align:center;font-weight:bold;padding:8px;background:#4C4949;border-top:4px solid #FFFFFF;border-bottom:1px solid transparent;border-right:solid 1px #FFFFFF;border-left:solid 1px #FFFFFF;}
+.T_ICTX_SMALL td {font-size:0.9em;padding:2px;background:#EDEDED;border-bottom:1px solid #fff;border-top:1px solid transparent;border-right:solid 1px #FFFFFF;border-left:solid 1px #FFFFFF;}
+.T_ICTX_SMALL tr:hover td {background:#B4C5D8;color:#293D87;}
+.T_ICTX_SMALL  textarea{font:normal normal normal 0.9em Helvetica, Arial, sans-serif; color:#4C4949;text-align:left;}
+.dnnGrid{font-size:0.8em; color:#171819;text-align:left;border-collapse:collapse;}
+.dnnGrid th {font-size:0.9em; color:#FFFFFF;text-align:center;font-weight:bold;padding:8px;background:#C2C2C2;border-top:4px solid #FFFFFF;border-bottom:1px solid transparent;border-right:solid 1px #FFFFFF;border-left:solid 1px #FFFFFF;}
+.dnnGrid td {font-size:0.9em;padding:2px;border-bottom:1px solid #fff;border-top:1px solid transparent;border-right:solid 1px #FFFFFF;border-left:solid 1px #FFFFFF;}
+
+.T_ICTX th.sortasc { background-image:url(../Imagenes/Grillas/Arriba.png); background-repeat: no-repeat;}
+.T_ICTX th.sortdesc { background-image:url(../Imagenes/Grillas/Abajo.png); background-repeat: no-repeat; }
+.T_ICTX_SMALL th.sortasc { background-image:url(../Imagenes/Grillas/Arriba.png); background-repeat: no-repeat;}
+.T_ICTX_SMALL th.sortdesc { background-image:url(../Imagenes/Grillas/Abajo.png); background-repeat: no-repeat; }
+.T_ICTX th.ancho { width:100px; }
+.T_ICTX th.anchoUno { width:50px; }
+.T_ICTX th.anchoDos { width:150px; }
+.T_ICTX th.anchoCuatro { width:130px; }
+.T_ICTX th.anchoSeis { width:160px; }
+.T_ICTX_SMALL th.ancho { width:200px; }
+
+.Cabecera{ font:normal normal normal 0.7em Helvetica, Arial, sans-serif;  color: #FFFFFF;}
+.CabeceraLeft{ float:left;}
+ li.activeSlide  {list-style-type:none;}
+ .RotatorNav li {list-style-type:none;}
+/* modulo document */
+.TDOCUMENTOS{font:normal normal normal 0.9em Helvetica, Arial, sans-serif; color:#171819;text-align:left;border-collapse:collapse;}   
+.TDOCUMENTOS td{padding:5px;background:#ffffff;border-bottom:solid 1px #EDEDED;}
+.TDOCUMENTOS tr:hover td{background:#E9E9E9;}
+/* Consultas en linea */
+.interes2{background-position:10px 10px;   padding-top:35px; padding-left:5px; float:left; background-image:url(/dnnpro5/portals/0/imagenes/inicio/Home_vinculos.png); background-repeat:no-repeat;  background-color: #F2F2F2; -webkit-border-radius: 10px; border-radius: 10px; width:418px; min-height:125px; max-height:135px; margin-left: 23px; margin-bottom:10px;}
+.GEL{background-position:10px 10px;   padding-top:35px; padding-left:5px; float:left; background-image:url(/dnnpro5/portals/0/imagenes/inicio/Home_GEL.png); background-repeat:no-repeat;  background-color: #F2F2F2;-webkit-border-radius: 10px; border-radius: 10px; width:418px; min-height:125px; max-height:135px; margin-left: 10px; margin-bottom:10px;}
+.IES{background-position:100% 0%; background-image:url(/dnnpro5/portals/0/imagenes/adminies1.jpg); background-repeat:no-repeat;}
+.PagosEstudiantes{background-position:50% 0%; width:200px; padding-top:70px; padding-bottom:20px; padding-left:10px; margin-left:10px; float:left; background-image:url(/dnnpro5/portals/0/imagenes/pagos/homeestudiantes.png); background-repeat:no-repeat; background-color:transparent;}
+.PagosGiros{background-position:50% 0%; width:200px; padding-top:70px; padding-bottom:20px; padding-left:10px; margin-left:10px; float:left; background-image:url(/dnnpro5/portals/0/imagenes/pagos/homeconsultadegiros.png); background-repeat:no-repeat; background-color:transparent;}
+.PagosCobro{background-position:50% 0%; width:200px; padding-top:70px; padding-bottom:20px; padding-left:10px; margin-left:0px; float:left; background-image:url(/dnnpro5/portals/0/imagenes/pagos/homecuentascartera.png); background-repeat:no-repeat; background-color:transparent;}
+.PagosRefinanciacion{background-position:50% 0%; width:200px; padding-top:70px; padding-bottom:20px; padding-left:10px; margin-left:10px; float:left; background-image:url(/dnnpro5/portals/0/imagenes/pagos/homerefinanciacion.png); background-repeat:no-repeat; background-color:transparent;}
+.PagosDevoluciones{background-position:50% 0%; width:200px; padding-top:70px; padding-bottom:20px; padding-left:10px; margin-left:10px; float:left; background-image:url(/dnnpro5/portals/0/imagenes/pagos/homeretenciondevoluciones.png); background-repeat:no-repeat; background-color:transparent;}
+.PagosConstituyentes{background-position:50% 0%; width:200px; padding-top:70px; padding-bottom:20px; padding-left:10px; margin-left:10px; float:left; background-image:url(/dnnpro5/portals/0/imagenes/pagos/homerecibopagoconstituyentes.png); background-repeat:no-repeat; background-color:transparent;}
+
+		
+
+
+#floating-social-tooltip{border-radius:3px 0 0 3px;background-clip:padding-box;background-color:#f9f9f9;background-image:linear-gradient(0deg, #dfdfdf 0%,white 100%);box-shadow:0 2px 3px 0px rgba(0,0,0,0.2);position:fixed;right:0;text-align:center;top:180px;z-index:999}
+#RedesSocialesIcetex{border-radius:0 3px 3px 0;background-clip:padding-box;background-color:#f9f9f9;background-image:linear-gradient(0deg, #dfdfdf 0%,white 100%);box-shadow:0 2px 3px 0px rgba(0,0,0,0.2);left:0;padding:5px 3px;position:fixed;text-align:center;top:300px;z-index:998}
+
+/* estilos del slideout */
+#Sofia {	
+	width: 145px;
+	height: 116px;
+	padding:0px; margin:0px; z-index:4000; cursor:pointer; border:solid 0px #ffffff; background-color:transparent; 
+	border-radius:0 15px 15px 0;background-clip:padding-box;
+	box-shadow:0 2px 3px 0px rgba(0,0,0,0.2);	
+	}
+	
+#youtubeicetex{	margin: 0px 0px 2px 0px; }	
+#IN-ICETEX{margin: 2px 0px 0px 0px; }
+
+#slideout {			
+			z-index : 3000;
+			position: fixed;
+			top: 175px;
+			left: 0;
+			width: 145px;
+			height: 116px;
+			padding: 2px 0; 
+		}
+		
+		
+.hi {
+    width: 50px;
+    height: 72px;
+    background-image: url("images/sprite-steps.png");
+ 
+    -webkit-animation: play .8s steps(10) infinite;
+       -moz-animation: play .8s steps(10) infinite;
+        -ms-animation: play .8s steps(10) infinite;
+         -o-animation: play .8s steps(10) infinite;
+            animation: play .8s steps(10) infinite;
+}		
+
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -500px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -500px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -500px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -500px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -500px; }
+	 
+}
+
+@keyframes DiezMilCreditosBecas {
+    0%   {top: 0px; left: 0px; background: red;}
+    25%  {top: 0px; left: 100px; background: blue;}
+    50%  {top: 100px; left: 100px; background: yellow;}
+    75%  {top: 100px; left: 0px; background: green;}
+    100% {top: 0px; left: 0px; background: red;}
+}
+		
+#DiezMilCreditosBecas{background-clip:padding-box;background-color:transparent;right:100px;padding:0px 0px;position:fixed;text-align:center;bottom:0px;z-index:998}
+#CreditosBecas{width: 155px;height: 93px;position: relative;-webkit-animation: becas 3s; -moz-animation:becas 3s;	-ms-animation:becas 3s; -o-animation:becas 3s;animation: becas 3s;	}
+
+@-webkit-keyframes becas {
+    0%   {top: 100px; left: 0px; } 
+    100% {top: 0px; left: 0px;}
+}
+@-moz-keyframes becas{
+    0%   {top: 100px; left: 0px; } 
+    100% {top: 0px; left: 0px;}
+}
+@-ms-keyframes becas{
+    0%   {top: 100px; left: 0px; } 
+    100% {top: 0px; left: 0px;}
+}
+@-o-keyframes becas{
+    0%   {top: 100px; left: 0px; } 
+    100% {top: 0px; left: 0px;}
+}
+@keyframes becas {
+    0%   {top: 100px; left: 0px; }
+    100% {top: 0px; left: 0px; }	
+}
+
+
+

@@ -1,0 +1,27 @@
+﻿/******************************** VALIDADORES (default/skins) *****************************/
+/******************************************************************************************/
+.requiredFieldValidator_css {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #004080;
+    color: white;
+    font-size: .8em;
+    padding: 0px 10px;
+    line-height: 1;
+    border: none;
+    text-align: left;
+    float: left;
+}
+
+.rangeFieldValidator_css {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #004080;
+    color: white;
+    font-size: .8em;
+    padding: 0px 10px;
+    line-height: 1;
+    border: none;
+    text-align: left;
+    float: left;
+}

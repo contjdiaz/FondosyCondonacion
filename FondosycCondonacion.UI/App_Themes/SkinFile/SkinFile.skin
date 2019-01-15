@@ -1,0 +1,5 @@
+﻿<%-- ****************************** SKINS_ID VALIDADORES **************************** --%>
+<asp:RequiredFieldValidator runat="server" CssClass="requiredFieldValidator_css"/>
+<asp:CustomValidator runat="server" CssClass="requiredFieldValidator_css"/>
+<asp:RegularExpressionValidator runat="server" CssClass="requiredFieldValidator_css"/>
+<asp:RangeValidator runat="server" CssClass="rangeFieldValidator_css"/>

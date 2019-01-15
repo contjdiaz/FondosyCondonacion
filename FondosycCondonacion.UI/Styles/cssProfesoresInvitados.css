@@ -1,0 +1,114 @@
+﻿.SizeTablepefiles {
+    width:650px;
+    border:solid 1px #f2f2f2; 
+    margin-left: auto; 
+    margin-right: auto;
+    font-size:10pt;
+}
+
+.SizeTableprofesores {
+    width:867px;
+    border:solid 1px #f2f2f2; 
+    margin-left: auto; 
+    margin-right: auto;
+    font-size:10pt;
+}
+
+.SizeDivProfesores {
+    width:868px;
+}
+
+.anchoColumna {
+    width:170px;
+}
+
+.anchoColumna2 {
+    width:120px;
+}
+
+.tablasReintegros td div {
+    text-align:left;
+    background:#e5ecf9;
+}
+
+.cajasTextoGrandes {
+    width:350px;
+}
+
+.cajasTextoMediana {
+    width:185px;
+}
+
+.cajasTextoPequeña {
+    width:115px;
+}
+
+.listaDesplegablePequeña {
+    width:195px;
+}
+
+.centrarTexto {
+    text-align:center;
+}
+
+.cajaUnoCalendario {
+    width:5px;
+}
+
+.cajaDosCalendario {
+    width:75px;
+}
+
+.cajaCuatroCalendario {
+    width:90px;
+}
+
+.cajaCincoCalendario {
+    width:50px;
+}
+
+.cajaSeisCalendario {
+    width:65px;
+}
+
+.MensajeGrid {
+   border-radius:50px;
+   background:#1251A3;
+   width:866px;
+   height:25px;
+}
+
+.Centrar {
+    text-align:center;
+}
+
+.Derecha {
+    text-align:right;
+}
+
+.Izquierda {
+    text-align:left;
+}
+
+.MensajeGridCDP {
+   border-radius:50px;
+   background:#1251A3;
+   width:200px;
+   height:25px;   
+}
+
+.Parrafos {
+    font-size:115%;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+
+.TablaMensaje {
+    font-size:105%;color:white;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+    text-align:center;
+    background:#1251A3;
+}
+
+.TablaTd {
+    font-size:105%;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+    text-align:center;
+}

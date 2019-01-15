@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{6DDBE96A-544B-4F2B-81DD-9617ACB314A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{867FEA00-3400-4540-8190-8217AF1C9439}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{8337D300-08AE-4048-AA07-23FBB9ABCDA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FondosycCondonacion.DAL", "FondosycCondonacion.DAL\FondosycCondonacion.DAL.csproj", "{9D204B85-562A-439D-A584-A4E385DB094D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FondosycCondonacion.Entities", "FondosycCondonacion.Entities\FondosycCondonacion.Entities.csproj", "{53E7CE02-A45A-4823-BC8B-02A513A2FAAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FondosycCondonacion.Business", "FondosycCondonacion.Business\FondosycCondonacion.Business.csproj", "{14A82B64-7FC7-4BE1-800C-1A93BF9E2C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FondosycCondonacion.UI", "FondosycCondonacion.UI\FondosycCondonacion.UI.csproj", "{8CE780AD-9ED9-4568-8AE8-BBC74D3EC59B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ictxsrvtf:8080/tfs/icetex
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FondosycCondonacion.DAL\\FondosycCondonacion.DAL.csproj
+		SccProjectTopLevelParentUniqueName1 = FondosycCondonacion.sln
+		SccProjectName1 = FondosycCondonacion.DAL
+		SccLocalPath1 = FondosycCondonacion.DAL
+		SccProjectUniqueName2 = FondosycCondonacion.Entities\\FondosycCondonacion.Entities.csproj
+		SccProjectTopLevelParentUniqueName2 = FondosycCondonacion.sln
+		SccProjectName2 = FondosycCondonacion.Entities
+		SccLocalPath2 = FondosycCondonacion.Entities
+		SccProjectUniqueName3 = FondosycCondonacion.Business\\FondosycCondonacion.Business.csproj
+		SccProjectTopLevelParentUniqueName3 = FondosycCondonacion.sln
+		SccProjectName3 = FondosycCondonacion.Business
+		SccLocalPath3 = FondosycCondonacion.Business
+		SccProjectUniqueName4 = FondosycCondonacion.UI\\FondosycCondonacion.UI.csproj
+		SccProjectTopLevelParentUniqueName4 = FondosycCondonacion.sln
+		SccProjectName4 = FondosycCondonacion.UI
+		SccLocalPath4 = FondosycCondonacion.UI
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D204B85-562A-439D-A584-A4E385DB094D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D204B85-562A-439D-A584-A4E385DB094D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D204B85-562A-439D-A584-A4E385DB094D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D204B85-562A-439D-A584-A4E385DB094D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E7CE02-A45A-4823-BC8B-02A513A2FAAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E7CE02-A45A-4823-BC8B-02A513A2FAAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E7CE02-A45A-4823-BC8B-02A513A2FAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E7CE02-A45A-4823-BC8B-02A513A2FAAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A82B64-7FC7-4BE1-800C-1A93BF9E2C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A82B64-7FC7-4BE1-800C-1A93BF9E2C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A82B64-7FC7-4BE1-800C-1A93BF9E2C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A82B64-7FC7-4BE1-800C-1A93BF9E2C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE780AD-9ED9-4568-8AE8-BBC74D3EC59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE780AD-9ED9-4568-8AE8-BBC74D3EC59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE780AD-9ED9-4568-8AE8-BBC74D3EC59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE780AD-9ED9-4568-8AE8-BBC74D3EC59B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D204B85-562A-439D-A584-A4E385DB094D} = {6DDBE96A-544B-4F2B-81DD-9617ACB314A7}
+		{53E7CE02-A45A-4823-BC8B-02A513A2FAAF} = {867FEA00-3400-4540-8190-8217AF1C9439}
+		{14A82B64-7FC7-4BE1-800C-1A93BF9E2C50} = {867FEA00-3400-4540-8190-8217AF1C9439}
+		{8CE780AD-9ED9-4568-8AE8-BBC74D3EC59B} = {8337D300-08AE-4048-AA07-23FBB9ABCDA7}
+	EndGlobalSection
+EndGlobal

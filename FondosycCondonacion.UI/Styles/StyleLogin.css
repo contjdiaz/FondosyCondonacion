@@ -1,0 +1,19 @@
+﻿.button {
+    font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+    background-color: #146aa1;
+    border: inset thin;
+    border-color: #f3f8fb;
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    color: #f3f8fb;
+    font-weight: 200;
+}
+
+    .button:hover {
+        background: #11527c;
+    }
+
+    .button:active {
+        background: #F2A338;
+    }
